@@ -13,4 +13,3 @@
         echo "Connected successfully";
     }
 
-?>
