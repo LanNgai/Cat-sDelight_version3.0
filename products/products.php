@@ -6,5 +6,7 @@
     <title>Products Page</title>
     <link rel="stylesheet" href="css/products.css">
 </head>
-<body></body>
+<body>
+
+</body>
 </html>

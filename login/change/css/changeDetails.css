@@ -7,20 +7,17 @@ nav {
     align-items: center;
 }
 
-/* Style the links inside the navigation bar */
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
 }
 
-/* Change the color of links on hover */
 nav a:hover {
     background-color: lightblue;
     color: black;
 }
 
-/* Add a color to the active/current link */
 nav a.active {
     background-color: lightblue;
     color: white;
