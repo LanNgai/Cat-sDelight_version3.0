@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST['username']);
+        $name = htmlspecialchars($_POST['username']);
+
     ?>
     <title>
         <?= "$name's Profile" ?>
@@ -32,12 +33,13 @@
     </div>
 </nav>
     <?php
+    //TODO: Placeholder bio text
         $bio_file = file('placeholders/bio.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         $user = [
             'name' => htmlspecialchars($_POST['username']),
             'email' => htmlspecialchars($_POST['email']),
             'bio' => $bio_file[0],
-            'profile_picture' => 'placeholder_pfp.jpg' // Placeholder image
+            'profile_picture' => 'placeholder_pfp.jpg' // TODO: Placeholder image
         ];
     }
     ?>
