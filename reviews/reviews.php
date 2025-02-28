@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/reviews.css">
+<link rel="stylesheet" href="css/Reviews.css">
 <?php
     $reviewData = file('reviewData.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
