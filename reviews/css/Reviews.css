@@ -19,7 +19,7 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: #04AA6D;
+    background-color: lightcoral;
     color: white;
 }
 

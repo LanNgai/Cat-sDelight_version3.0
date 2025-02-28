@@ -5,7 +5,7 @@
     echo "<nav>
             <div class='top-nav'>
                 <a href='../index.php'>Home</a>
-                <a href='reviews.php'>Reviews</a>
+                <a class='active' href='reviews.php'>Reviews</a>
                 <a href='../products/products.php'>Products</a>
                 <a href='../login/login.php'>Login</a>
             </div>
