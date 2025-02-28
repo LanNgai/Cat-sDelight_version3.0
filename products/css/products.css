@@ -5,6 +5,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 nav a {
@@ -55,7 +57,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1000px;
 }
 
 .product strong {
